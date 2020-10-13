@@ -1,0 +1,252 @@
+@font-face {
+  font-family: nyt-cheltenham;
+  src: url("assets/fonts/lchlthmn.ttf");
+}
+
+@font-face {
+  font-family: nyt-imperial;
+  src: url("assets/fonts/Imperial.TTF");
+}
+
+body{
+  background-color: white;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 70%;
+  background-color: white;
+  margin-top: -60px;
+
+}
+
+figure{
+  margin:0;
+  align-items: left;
+  line-height: 1.25rem;
+  font-size: 14px;
+  color: #666;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+.card figure img{
+  width: 630px;
+
+}
+
+.rightcolumn {
+  display: inline-block;
+  width: 0;
+  background-color: white;
+  margin-left: -180px;
+
+}
+
+.rightcolumn table tr td{
+  padding:10px;
+}
+
+.rightcolumn table tr td a img{
+  width: 100px!important;
+}
+
+.rightcolumn table tr td a{
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.rightcolumn table tr td a:hover{
+  text-decoration: underline;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 5px;
+  margin-left: 300px;
+}
+
+.card p{
+  line-height: 27px;
+}
+
+.card .nav-in{
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+
+.card img{
+  width: 40px;
+}
+
+.card time{
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.leftcolumn .card b{
+  font-size: 12px;
+  margin-left: 15px;
+  vertical-align: super;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card ul,footer ul{
+  list-style: none;
+
+}
+
+.card ul li{
+  display: inline;
+  margin-right: 10px;
+  padding: 12px;
+  background-color: #eee;
+  border-radius: 50px;
+  border:0;
+}
+
+footer ul li{
+  margin-right: 10px;
+  padding: 12px;
+  background-color: #eee;
+  border-radius: 50px;
+  border:0;
+}
+
+.card ul li:hover, footer ul li:hover{
+  border:1px solid #eee;
+  background-color: transparent;
+  display: inline;
+  margin-right: 10px;
+  padding: 11px;
+  border-radius: 50px;
+}
+.card ul li button, footer ul li button{
+  background-color: transparent;
+  border:none;
+  width: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.card ul .css-1h5igzw, footer ul .css-1h5igzw{
+  background-color: transparent!important;
+  border:none!important;
+}
+
+.card ul .css-1h5igzw:hover, footer ul.css-1h5igzw:hover{
+  opacity: 0.3;
+}
+
+.card ul .css-1h5igzw a, footer ul .css-1h5igzw a{
+  padding-top: 15px;
+}
+
+.card p strong, .card p strong{
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.card p span a{
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+
+.card p span a:hover{
+  text-decoration: underline;
+}
+
+.card p span{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: rgb(102, 102, 102);
+  font-size: 11px;
+  line-height: 3px;
+}
+
+.content{
+  font-family: 'nyt-imperial',georgia,times new roman,times,serif;
+  color: #333;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+.content p a{
+  color: #326891;
+  text-decoration: underline;
+}
+
+.content p a:hover{
+  text-decoration: none
+}
+
+figcaption span{
+  color:#888;
+}
+
+figcaption{
+  max-width: 100%;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  color: #666;
+  line-height: 15px;
+  text-align: left;
+}
+
+hr{
+  width: 100px;
+  color: #eee;
+}
+
+.interline{
+  text-align: center;
+  font-weight: 900;
+  font-size: 14px!important;
+  color: #333;
+  line-height: 10px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif
+}
+
+.card.content .interline b a{
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+}
+
+table{
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+table tr td{
+  padding:10px; 
+}
+
+table tr td a{
+  font-weight: 500;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+table tr td a:hover{
+  color: rgb(100, 100, 100);
+}
+
+table tr td img{
+  width: 150px!important;
+}
+
+table tr td time{
+  color: rgb(153, 153, 153);
+  font-size: 12px;  
+  line-height: 5px;
+  text-transform: capitalize;
+}

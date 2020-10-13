@@ -1,0 +1,39 @@
+footer{
+	margin-top: 20px;
+	border-top: 10px solid #f15a08;
+	text-align: center;
+}
+footer span img{
+	width: 25%;
+	margin: 20px;
+}
+footer a img{
+	width: 50px;
+	margin-right: 10px;
+	padding:10px 20px;
+}
+footer p{
+	text-align: left!important;
+	font-size: 16px;
+	color:  #343434;
+	width: 50%;
+	margin-left: 50px;
+}
+footer table{
+	margin-left: 50px;
+}
+footer table tr td{
+	padding: 5px;
+	text-align: center;
+}
+footer table tr td a{
+	font-family: 'Space Mono',monospace;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-decoration: none;
+	color: #f15a08;
+	font-weight: bold;
+}
+footer table tr td a:hover{
+	text-decoration: underline;
+}

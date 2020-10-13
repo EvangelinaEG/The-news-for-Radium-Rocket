@@ -1,0 +1,52 @@
+
+header img{
+	width: 300px;
+	display: inline-block;
+}
+header .right{
+	display: inline-block;
+	width: 800px;
+}
+
+header .right .top a img{
+	width: 20px;
+	padding: 5px 10px;
+	opacity: 0.5;
+	color: #ccc;
+}
+header .right .top time{
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 5px;
+}
+ header .right .top a svg{
+ 	width: 20px;
+ 	opacity: 0.2;
+ 	height: 25px;
+ }
+header .redes{
+	display: inline-block;
+	width: 50%;
+	
+}
+header .right .bottom{
+	border-top: 2px solid #f15a08;
+}
+header table{
+	margin-left: 50px;
+}
+header table tr td{
+	padding: 5px;
+	text-align: center;
+}
+header table tr td a{
+	font-family: 'Space Mono',monospace;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-decoration: none;
+	color: #f15a08;
+	font-weight: bold;
+}
+header table tr td a:hover{
+	text-decoration: underline;
+}
